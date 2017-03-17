@@ -16,11 +16,11 @@
         width: 100%;
     }
     #header_one .logo::before {
-        left: 110%;
-        width: 0%;
+        /*! left: 110%; */
+        /*! width: 0%; */
     }
     #header_one .logo::after {
-        margin-right: 120px;
+        margin-right: 102px;
     }
     #header_one .logo a {
         margin-top: 0px;
@@ -126,11 +126,11 @@
         width: 100%;
     }
     #header_one .logo::before {
-        left: 110%;
-        width: 0%;
+        /*! left: 110%; */
+        /*! width: 0%; */
     }
     #header_one .logo::after {
-        margin-right: 120px;
+        margin-right: 97px;
     }
     #header_one .logo a {
         margin-top: 0px;
@@ -322,7 +322,9 @@
 	/*--------------------------------------
    Header And SLider
 ----------------------------------------*/
-    
+    #header_one {
+		background: #FFCD23;
+	}
     #header_one .logo {
         border: medium none;
         padding: 3px 0;
@@ -599,6 +601,11 @@
         top: 0px;
         left: 30%;
     }
+.work-item {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 15px;
+}
     /*   testimonial Section                
 ============================ */
     
@@ -678,7 +685,8 @@
         margin-left: -15px;
     }
     .blog-post {
-        margin-right: 0px;
+        /*! margin-right: 0px; */
+        margin-right: -15px;
     }
     .blog-area {
         padding-right: 0px;
@@ -822,4 +830,9 @@
     .pricing-section .col-xs-12 {
         width: 50%;
     }
+	.work-item {
+		margin-left: -14px;
+		margin-right: -14px;
+		margin-top: 2px;
+	}
 }

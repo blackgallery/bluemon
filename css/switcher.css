@@ -3,9 +3,8 @@
     position: fixed;
     top: 0px;
     bottom: 0px;
-	display:none;
+	left: -226px;
 }
-
  
 .layout_styles ul li {
     list-style: outside none none;
