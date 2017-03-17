@@ -11,17 +11,18 @@ $(document).ready(function($) {
         filter: ':not(.external)',
         updateHash: true,
     });
+	
     /*=======================================
              Header Section
         ========================================== */
-    $(document).ready(function() {
         $(".search_icon").on('click', function() {
             $(".search_icon_inr").slideToggle();
         });
+		
         $(".shop_setting").on('click', function() {
             $(".shop_setting_inr").slideToggle();
         });
-    });
+
     /*=======================================
        Nivo Slider 
     ======================================= */
